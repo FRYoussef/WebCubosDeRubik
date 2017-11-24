@@ -1,0 +1,311 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #212121;
+}
+
+#cabecera{
+	width: 100%;
+	height: 125px;
+}
+
+#titulo{
+	margin: 5px 0px 0px 400px;
+}
+
+#log{
+	float: right;
+	margin: 5px 20px 0px 0px;
+	background-color: #ffe082;
+	border-radius: 10px;
+	width: 210px;
+}
+
+#log input{
+	float: right;
+	margin-right: 10px;
+}
+
+#log label{
+	margin-left: 5px;
+}
+
+#log a{
+	margin-left: 5px;
+}
+
+#log span{
+	margin-left: 60px;
+}
+
+#log ol{
+	margin-left: 30px;
+	list-style-type: disc;
+}
+
+.cuerpo{
+	height: 600px;
+	margin: 10px 0px 10px 0px;
+	border-radius: 15px;
+}
+/*#FF86E3, #FF86C2, */
+#categorias{
+	float: left;
+	margin-right: 10px;
+	background-color: #ffe082;
+	width: 19%;
+}
+
+#categorias h2{
+	text-align: center;
+}
+
+#listaCategorias{
+	list-style-type: disc;
+}
+
+#listaCategorias > li {
+	margin: 10px 0px 10px 35px;
+}
+
+#contenido{
+	overflow-y: scroll;
+	float: left;
+	background-color: #64b5f6;
+	width: 80%;
+}
+
+#contenido h2{
+	text-align: center;
+}
+
+#pie{
+	clear: both;
+	width: 100%;
+	height: 70px;
+}
+
+#pie p{
+	color: #e0e0e0;
+	text-align: center;
+}
+
+.productoCategoria{
+	margin-bottom: 10px;
+	height: 90px;
+	width: 100%;
+}
+
+#imagenProdCat{
+	float: left;
+	height: 90px;
+	width: 90px;
+	margin: 10px 20px 0px 10px;
+}
+
+.icono{
+	height: 35px;
+	width: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.productoCategoria span{
+	float: left;
+	margin-top: 20px;
+}
+
+a{
+	color: black;
+}
+
+#contenido a:hover{
+    color: #fafafa;
+}
+
+a:hover{
+	color: #fafafa;	
+}
+
+#imagenProducto{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin: 0px 50px 0px 20px;
+}
+
+#producto div{
+	float: left;
+}
+
+#cantidad{
+	margin-left: 10px;
+}
+
+#video{
+	height: 315px;
+	width: 560px;
+	float: right;
+	margin-right: 50px;
+}
+
+#controles{
+	clear: both;
+	margin-top: 8px;
+	margin-left: 42px;
+}
+
+#controles input{
+	color: white;
+	background-color: black;
+	border-color: black;
+	border-radius: 10px;
+}
+
+#controles input:hover{
+	color: #ffea00;
+}
+
+#controles input:disabled{
+	color: grey;
+}
+
+#registro{
+	margin: 50px 400px 0px 300px;
+}
+
+#registro fieldset{
+	border: 2px groove;
+	border-radius: 10px;
+	background-color: #ffe082;
+}
+
+#registro legend{
+	margin-left: 180px;
+}
+
+#registro label{
+	float: left;
+	margin-left: 10px;
+}
+
+#registro input{
+	float: right;
+	margin-right: 135px;
+}
+
+.carrito{
+	margin: 0px 10px 30px 10px;
+}
+
+.carrito img{
+	margin-right: 15px;
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+.carrito .iconoP{
+	height: 25px;
+	width: 25px;
+}
+
+.carrito .precio{
+	float: right;
+}
+
+#total{
+	margin-right: 10px;
+	float: right;
+}
+
+#pedido{
+	text-align: center;
+	margin: 30px 0px 60px 0px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.factura{
+	border: 2px dashed black;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.factura p{
+	text-align: center;
+	margin: 5px 0px 15px 0px;
+	font-weight: bold;	
+}
+
+.factura .iconoP{
+	display: none;
+}
+
+#tituloDestacado{
+	text-align: center;
+	font-size: 30px;
+}
+
+#fotosDestacados{
+	margin-top: 10px;
+	padding-left: 30%;
+}
+
+.destacada{
+	height: 100px;
+	width: 100px;
+	margin-bottom: 45px;
+	box-shadow: 10px 10px 5px #424242;
+	border-radius: 5px;
+}
+
+.destacada:hover {
+	box-shadow: 20px 20px 10px #393939;
+}
+
+#fotoP{
+	height: 200px;
+	width: 200px;
+	margin: 0px 10px 0px 10px;
+}
+
+#videosDestacados{
+	margin-top: 28px;
+	padding-left: 1%;
+}
+
+.videoD{
+	height: 237px;
+	width: 330px;
+	margin: 0px 10px 0px 5px;
+	border-radius: 10px;
+}
+
+#nombreProducto{
+	margin-top: 12px;
+	margin-left: 15%;
+	font-size: 20px;
+}
+
+.cuenta{
+	margin-top: 15px;
+	border: 2px dotted white;
+	border-radius: 15px;
+}
+
+.cuenta p{
+	font-size: 20px;
+	text-align: center;
+}
+
+#tablaPedido{
+	border: 1px solid black;
+	width: 70%;
+	table-layout: auto;
+	text-align: center;
+	margin: auto;
+}
